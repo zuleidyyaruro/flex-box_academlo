@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    /* Resta el valor del borde para que no sumen*/
+    margin:0;
+    padding:0;
+}
+.border{
+    border:1px solid;
+}
+
+.container{
+    width: 90%;
+    margin-left:5%;
+}
+
+
+.col-6{
+    width: 50%; 
+    background:yellow;
+}
+
+.col-4{
+    width: 33.3%;
+    background:blueviolet;
+}
+
+.col-8{
+    width: 66.7%;
+    background:blue;
+}
+
+.col-1{
+    width: 8.3%;
+    background:chartreuse;
+}
+
+.col-12{
+    width: 100%;
+    background:cyan;
+}
+
+.row{
+    display: flex;  
+    width: 100%;
+    text-align: center;  
+    flex-wrap: wrap; 
+    height: 100px;
+    /* wrap permite que los elementos que no quepan se muevan a otra fila */
+    padding: 3px;
+}
